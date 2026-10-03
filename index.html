@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Sameer 💗</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#ffd6ec,#e8d5ff,#ffc9df);
+    color:#5b245f;
+    overflow-x:hidden;
+}
+
+.heart{
+    position:fixed;
+    bottom:-40px;
+    pointer-events:none;
+    animation:float 7s linear infinite;
+    z-index:5;
+}
+
+@keyframes float{
+    0%{transform:translateY(0) rotate(0deg);opacity:0;}
+    15%{opacity:1;}
+    100%{transform:translateY(-110vh) rotate(360deg);opacity:0;}
+}
+
+section{
+    min-height:100vh;
+    padding:70px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card,.box,.item{
+    background:rgba(255,255,255,.5);
+    backdrop-filter:blur(15px);
+    box-shadow:0 10px 35px rgba(100,30,100,.18);
+}
+
+.card{
+    width:100%;
+    max-width:650px;
+    padding:50px 30px;
+    border-radius:35px;
+    text-align:center;
+    animation:appear 1.2s ease;
+}
+
+@keyframes appear{
+    from{opacity:0;transform:translateY(40px);}
+    to{opacity:1;transform:translateY(0);}
+}
+
+.card h1{
+    font-size:52px;
+    color:#a52c76;
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+    50%{transform:scale(1.06);}
+}
+
+.card h2,.title{
+    color:#92296e;
+}
+
+.card p,.box,.item p{
+    font-size:17px;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 28px;
+    border-radius:30px;
+    border:none;
+    background:linear-gradient(90deg,#d84d9b,#955bd5);
+    color:white;
+    font-size:16px;
+    text-decoration:none;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(130,40,120,.25);
+}
+
+.content{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+.title{
+    font-size:38px;
+    margin-bottom:35px;
+}
+
+.box{
+    padding:30px;
+    margin:20px 0;
+    border-radius:25px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:20px;
+}
+
+.item{
+    padding:30px 20px;
+    border-radius:25px;
+    transition:.4s;
+}
+
+.item:hover{
+    transform:translateY(-10px) scale(1.02);
+}
+
+.emoji{
+    font-size:45px;
+}
+
+.anime{
+    font-size:80px;
+    animation:animeBounce 1.5s infinite;
+}
+
+@keyframes animeBounce{
+    50%{transform:translateY(-12px) rotate(3deg);}
+}
+
+.surprise{
+    display:none;
+    margin-top:25px;
+    padding:25px;
+    border-radius:25px;
+    background:rgba(255,255,255,.75);
+    animation:appear .8s ease;
+}
+
+footer{
+    text-align:center;
+    padding:50px 20px;
+    background:rgba(255,255,255,.25);
+}
+
+@media(max-width:600px){
+    .card h1{font-size:40px;}
+    .title{font-size:30px;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HOME -->
+<section>
+<div class="card">
+
+<h1>For Sameer 💗</h1>
+
+<h2>Happy Boyfriend Day! 💐</h2>
+
+<h3>Ek chhoti si cute si duniya... sirf Sameer ke liye 🫶</h3>
+
+<p>
+Sameer, aaj ka din thoda special hai...
+isliye socha normal message ki jagah
+aapke liye ek chhoti si website bana du. 💕
+</p>
+
+<p>
+Is website ke har corner mein thoda sa
+pyaar, thoda sa pagalpan aur bahut saari
+cute feelings hain. 🥹💗
+</p>
+
+<a href="#special" class="btn">
+Open Your Surprise ✨
+</a>
+
+</div>
+</section>
+
+
+<!-- SPECIAL MESSAGE -->
+<section id="special">
+<div class="content">
+
+<h1 class="title">
+Sameer, Aap Mere Liye Special Kyun Ho? 💗
+</h1>
+
+<div class="box">
+
+Aapke saath baat karna hamesha
+thoda alag sa feel hota hai. 🥹💕
+
+<br><br>
+
+Aapki ek chhoti si smile bhi
+mood better kar sakti hai. 🌸
+
+<br><br>
+
+Kabhi hasi-mazaak,
+kabhi random conversations,
+kabhi thodi si nok-jhok...
+
+<br><br>
+
+Ye chhoti chhoti cheezein hi
+mere liye special hain. 🫶
+
+<br><br>
+
+<br><br>
+
+</b>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- CUTE THINGS -->
+<section>
+<div class="content">
+
+<h1 class="title">
+Aapke Baare Mein Kuch Cute Baatein 💕
+</h1>
+
+<div class="grid">
+
+<div class="item">
+<div class="emoji">🥹</div>
+<h3>Aapki Smile</h3>
+<p>
+Aapki smile automatically mood achha kar deti hai.
+</p>
+</div>
+
+<div class="item">
+<div class="emoji">😂</div>
+<h3>Aapka Funny Side</h3>
+<p>
+Aapke saath hasi-mazaak kabhi boring nahi hota.
+</p>
+</div>
+
+<div class="item">
+<div class="emoji">🫶</div>
+<h3>Aapka Caring Side</h3>
+<p>
+Aapki chhoti chhoti caring wali baatein bahut cute hain.
+</p>
+</div>
+
+<div class="item">
+<div class="emoji">🌷</div>
+<h3>Aapki Presence</h3>
+<p>
+Bas aapka hona hi kuch moments ko special bana deta hai.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- ANIME SURPRISE -->
+<section>
+<div class="content">
+
+<h1 class="title">
+Anime Surprise For Sameer ✨
+</h1>
+
+<div class="box">
+
+<div class="anime">🌸</div>
+
+<h2>Hey Sameer! ✨</h2>
+
+<p>
+Agar hamari story ek anime hoti...
+toh aap definitely us character ki tarah hote
+jo story ko thoda aur interesting bana dete. 😭💗
+</p>
+
+<p>
+Aur main?
+Main woh character jo aapko unnecessarily
+irritate karta rahega. 😂🫶
+</p>
+
+<p>
+<b>
+Together = Cute + Crazy + Unlimited Memories 💕
+</b>
+</p>
+
+<button class="btn" onclick="showAnime()">
+Anime Secret 👀✨
+</button>
+
+<div class="surprise" id="animeSecret">
+
+🌸✨ <b>Secret Anime Scene Unlocked!</b> ✨🌸
+
+<br><br>
+
+Sameer enters the scene...
+
+<br><br>
+
+🎬 <i>"The most important character has arrived."</i>
+
+<br><br>
+
+💗 Background music starts...
+
+<br>
+
+🌸 Flowers appear...
+
+<br>
+
+✨ Hearts start floating...
+
+<br><br>
+
+<b>
+And the heroine says:
+"Sameer, aap mere liye really special hain." 🥹💗
+</b>
+
+<br><br>
+
+🎀 END SCENE 🎀
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- HEART MESSAGE -->
+<section>
+<div class="content">
+
+<h1 class="title">
+Dil Se Ek Message 💌
+</h1>
+
+<div class="box">
+
+<b>Dear Sameer, 💗</b>
+
+<br><br>
+
+Main shayad har baar apni feelings
+properly express nahi kar paati...
+
+<br><br>
+
+lekin aap mere liye genuinely
+bahut special hain. 🥹🫶
+
+<br><br>
+
+Aapse baat karna,
+aapko thoda irritate karna,
+random baatein share karna
+aur saath mein hasna...
+
+<br><br>
+
+sab kuch apni jagah special hai. 💕
+
+<br><br>
+
+Main bas chahti hoon ki aap
+hamesha khush rahein,
+hamesha smile karein,
+aur life mein bahut saari
+beautiful memories banaayein. 🌸
+
+<br><br>
+
+<b>
+Thank you for being you, Sameer. 💗
+</b>
+
+<br><br>
+
+<b>
+Happy Boyfriend Day! 💐💗
+</b>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- MEMORIES -->
+<section>
+<div class="content">
+
+<h1 class="title">
+Our Little Memories ✨
+</h1>
+
+<div class="box">
+
+💗 Random conversations
+
+<br><br>
+
+😂 Unnecessary hasi-mazaak
+
+<br><br>
+
+🥹 Cute little moments
+
+<br><br>
+
+🫶 Ek dusre ko irritate karna
+
+<br><br>
+
+🌸 Chhoti chhoti caring wali baatein
+
+<br><br>
+
+✨ Aur woh memories
+jinhe future mein yaad karke
+hum dono smile karenge.
+
+</div>
+
+</div>
+</section>
+
+
+<!-- FINAL SURPRISE -->
+<section>
+<div class="content">
+
+<h1 class="title">
+One Last Surprise 👀💌
+</h1>
+
+<div class="box">
+
+<p>
+Sameer, button dabaiye...
+last surprise aapka wait kar raha hai. 👀💗
+</p>
+
+<button class="btn" onclick="showSecret()">
+Click Me 💕
+</button>
+
+<div class="surprise" id="secret">
+
+🥹💗✨
+
+<br><br>
+
+<b>
+SURPRISE, SAMEER! 💐
+</b>
+
+<br><br>
+
+Aap meri life ke un special people
+mein se hain jinke hone se
+duniya thodi aur beautiful lagti hai. 🌸
+
+<br><br>
+
+Chahe kitne bhi random,
+funny ya pagal moments ho...
+
+<br><br>
+
+<b>
+I will always treasure these memories. 🫶💗
+</b>
+
+<br><br>
+
+🌷 Keep smiling 🌷
+
+<br><br>
+
+<b>
+Happy Boyfriend Day, Sameer! 💗💐
+</b>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<footer>
+
+<h2>
+Happy Boyfriend Day, Sameer! 💐💗
+</h2>
+
+<p>
+Chhoti si website hai...
+par feelings bahut saari hain. 🥹
+</p>
+
+<br>
+
+<p>
+<strong>
+Made Especially For Sameer 💕
+</strong>
+</p>
+
+<br>
+
+<p>
+With Lots Of Love 💗✨
+</p>
+
+</footer>
+
+
+<script>
+
+function showSecret(){
+    document.getElementById("secret").style.display="block";
+}
+
+function showAnime(){
+    document.getElementById("animeSecret").style.display="block";
+}
+
+function createHeart(){
+
+    const heart=document.createElement("div");
+
+    heart.className="heart";
+
+    const emojis=[
+        "💗",
+        "💕",
+        "💖",
+        "💜",
+        "🩷",
+        "✨",
+        "🌸",
+        "💐"
+    ];
+
+    heart.innerHTML=
+    emojis[Math.floor(Math.random()*emojis.length)];
+
+    heart.style.left=
+    Math.random()*100+"vw";
+
+    heart.style.fontSize=
+    (18+Math.random()*25)+"px";
+
+    heart.style.animationDuration=
+    (5+Math.random()*5)+"s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(()=>{
+        heart.remove();
+    },10000);
+}
+
+setInterval(createHeart,450);
+
+</script>
+
+</body>
+</html>
